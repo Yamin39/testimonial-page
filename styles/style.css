@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Sora", sans-serif;
+  background-color: #FAFAF9;
+}
+
+/* common styles  */
+
+img {
+   width: 100%;
+}
+
+/* testimonial head  */
+
+.container {
+    width: 88.75%;
+    max-width: 1136px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.testimonial-head, .reviews {
+    width: 50%;
+}
+
+.testimonial-head .testo-head-img {
+    width: 56px;
+    margin-bottom: 10px;
+}
+
+.testimonial-head .testo-content h1 {
+    color: #18181B;
+    font-size: 2.25rem;
+}
+
+.testimonial-head .testo-content p {
+    color: #52525A;
+    font-size: 1.25rem;
+    line-height: 35px;
+    margin: 20px 0 30px;
+    width: 85%;
+}
+
+.testimonial-head ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+    font-size: 0.925rem;
+}
+
+.testimonial-head ul li img {
+    width: 28px;
+}
+
+.review-rating ul {
+    display: flex;
+}
