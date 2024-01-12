@@ -11,62 +11,98 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Sora", sans-serif;
-  background-color: #FAFAF9;
+  background-color: #fafaf9;
 }
 
 /* common styles  */
 
 img {
-   width: 100%;
+  width: 100%;
 }
 
 /* testimonial head  */
 
 .container {
-    width: 88.75%;
-    max-width: 1136px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  width: 88.75%;
+  max-width: 1136px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-.testimonial-head, .reviews {
-    width: 50%;
+.testimonial-head,
+.reviews {
+  width: 50%;
 }
 
 .testimonial-head .testo-head-img {
-    width: 56px;
-    margin-bottom: 10px;
+  width: 56px;
+  margin-bottom: 10px;
 }
 
 .testimonial-head .testo-content h1 {
-    color: #18181B;
-    font-size: 2.25rem;
+  color: #18181b;
+  font-size: 2.25rem;
 }
 
 .testimonial-head .testo-content p {
-    color: #52525A;
-    font-size: 1.25rem;
-    line-height: 35px;
-    margin: 20px 0 30px;
-    width: 85%;
+  color: #52525a;
+  font-size: 1.25rem;
+  line-height: 35px;
+  margin: 20px 0 30px;
+  width: 85%;
 }
 
 .testimonial-head ul li {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 5px;
-    font-size: 0.925rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 0.925rem;
 }
 
 .testimonial-head ul li img {
-    width: 28px;
+  width: 28px;
 }
 
-.review-rating ul {
-    display: flex;
+/* review  */
+
+.reviews .review-main {
+  width: calc( 60% + 35px );
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 40px 10px #d4d4d846;
+}
+
+.review-google-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.reviews .review-head {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 9px;
+}
+
+.reviews .review-head .review-logo {
+  width: 120px;
+}
+
+.reviews .review-head .review-rating ul {
+  display: flex;
+  list-style: none;
+}
+
+.reviews .review-content p {
+  color: #52525a;
+  font-size: 1rem;
+  line-height: 25px;
+  margin-top: 10px;
 }
