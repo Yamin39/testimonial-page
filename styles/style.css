@@ -71,7 +71,7 @@ img {
 /* review  */
 
 .reviews .review-main {
-  width: calc( 60% + 35px );
+  width: calc(60% + 35px);
   background-color: #ffffff;
   border-radius: 10px;
   padding: 40px;
@@ -105,4 +105,32 @@ img {
   font-size: 1rem;
   line-height: 25px;
   margin-top: 10px;
+}
+
+/* mobile  */
+
+@media screen and (max-width: 640px) {
+  .container {
+    flex-direction: column;
+    align-items: normal;
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .reviews {
+    margin-top: 60px;
+  }
+
+  .testimonial-head,
+  .reviews {
+    width: 100%;
+  }
+}
+
+/* small mobile  */
+
+@media screen and (max-width: 320px) {
+    .reviews .review-main {
+        width: 100%;
+    }
 }
